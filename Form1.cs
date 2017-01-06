@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace ChromeFox
 {
+    /// <summary>
+    /// Core class of the browser.
+    /// </summary>
     public partial class Form1 : Form
     {
+        /// <summary>
+        /// Initialize Component.
+        /// </summary>
         public Form1()
         {
             InitializeComponent();
